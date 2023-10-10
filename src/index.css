@@ -5,9 +5,444 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* color:#AF41F0; */
+  color: yellow;
+  font-size: larger;
+  font-weight: 700;
+
+  /* background:radial-gradient(circle, rgba(138,77,83,1) 0%, rgba(223,16,16,1) 50%, rgba(191,48,48,1) 100%); */
+  background:radial-gradient(circle, rgba(191,48,48,1) 0%, rgba(240,49,9,0.9962359943977591) 19%, rgba(240,53,9,1) 39%, rgba(240,61,9,1) 43%, rgba(240,49,9,1) 58%, rgba(191,48,48,1) 100%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background: black; */
+  
+
 }
 
+h1.text-durgama.text-center {
+  font-size: xxx-large;
+}
+
+
+.text-pargaraf {
+  color: white;
+  font-weight: 700;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.welcomeImagepage {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.diya1 {
+  width: 20%;
+  display: flex;
+    justify-content: center;
+}
+.diya2 {
+  width: 20%;
+  display: flex;
+    justify-content: center;
+}
+.mata {
+  width: 55%;
+  display: flex;
+    justify-content: center;
+}
+img{
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+
+
+.text-pargaraf {
+  color: white;
+  font-weight: 700;
+  padding: 7%;
+}
+.colorWhite{
+  color:white;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.glow {
+  
+  margin: 1%;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+img.diyaImage {
+  width: 100%;
+}
+.diyaDiv {
+  width: 60px;
+}
+.diyawalk{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.coverImg {
+  width: 75%;
+}
+
+
+.imglast {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  height: 218px;
+  padding-bottom: 4%;
+  margin-top: 5%;
+}
+
+
+
+/* name */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;1,500&family=Work+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Lobster&display=swap');
+/* 
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Work Sans', sans-serif; 
+
+font-family: 'Great Vibes', cursive;
+*/
+
+
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 20%;
+    
+  }
+  .item1,.item2,.item3,.item4,
+  .item5,.item6,.item7,.item8,.item9,.item10{
+    font-family: 'Lemonada', cursive;
+    /* font-family: 'Lobster', cursive; */
+
+  }
+  .item1{
+    /* font-family: 'Work Sans', sans-serif;  */
+    /* font-family: 'Lemonada', cursive; */
+/* font-family: 'Lobster', cursive; */
+    animation-name: Slatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .item2{
+    /* font-family: 'Work Sans', sans-serif;  */
+    animation-name: hlatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .item3{
+    /* font-family: 'Work Sans', sans-serif;  */
+    animation-name: rlatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .item4{
+    /* font-family: 'Work Sans', sans-serif;  */
+    animation-name: ilatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .item5{
+    /* font-family: 'Work Sans', sans-serif;  */
+    animation-name: glatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .item6{
+    /* font-family: 'Work Sans', sans-serif;  */
+    animation-name: alatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .item7{
+    /* font-family: 'Work Sans', sans-serif;  */
+    animation-name: nlatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .item8{
+    /* font-family: 'Work Sans', sans-serif;  */
+    animation-name: elatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .item9{
+    /* font-family: 'Work Sans', sans-serif;  */
+    animation-name: sslatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .item10{
+    /* font-family: 'Work Sans', sans-serif;  */
+    animation-name: hhlatter;
+    animation-fill-mode: forwards;
+    animation-timing-function: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+
+/* S */
+  @keyframes Slatter{
+    from{
+        color:rgba(0, 0, 0,0);
+        /* font-size: 50px; */
+        /* transform:translateX(-200px)rotateZ(360deg); */
+    }
+    to{
+        color: rgb(130, 7, 245);
+        /* font-size: 60px; */
+        /* transform:translateX(0) rotateZ(0deg); */
+    }
+}
+/* H */
+
+    @keyframes hlatter{
+        from{
+            color:rgba(0, 0, 0,0);
+            /* font-size: 50px; */
+            /* transform:translateY(200px); */
+        }
+        to{
+            color: rgb(123, 21, 218);
+            /* font-size: 60px; */
+            /* transform:translateY(0) rotateZ(360deg); */
+        }
+  }
+/* R */
+  @keyframes rlatter{
+    from{
+        color:rgba(0, 0, 0,0);
+        /* font-size: 50px; */
+        /* transform:translateY(-200px) rotateZ(-90deg); */
+    }
+    to{
+        color: rgb(88, 61, 114);
+        /* font-size: 60px; */
+        /* transform: rotateY(0); */
+    }
+}
+/* i */
+@keyframes ilatter{
+    from{
+        color:rgba(0, 0, 0,0);
+        /* font-size: 50px; */
+        /* transform: rotateZ(-120deg); */
+    }
+    to{
+        color: rgb(79, 53, 104);
+        /* font-size: 60px; */
+        /* transform: rotateY(0); */
+    }
+}
+
+/* G */
+@keyframes glatter{
+    0%{
+        color:rgba(0, 0, 0,0);
+        /* font-size: 50px; */
+
+        /* transform: translateY(-300px); */
+    }
+    50%{
+        color: rgb(197, 223, 52);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: translateY(70px); */
+    }
+    100%{
+        color: rgb(223, 100, 52);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: translateY(0); */
+    }
+}
+/* a */
+@keyframes alatter{
+    from{
+        color:rgba(0, 0, 0,0);
+        /* font-size: 50px; */
+
+        /* transform: rotateZ(360deg); */
+    }
+    to{
+        color: rgb(223, 100, 52);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: rotateY(0); */
+    }
+}
+/* n */
+@keyframes nlatter{
+    0%{
+        color:rgba(0, 0, 0,0);
+        /* font-size: 50px; */
+
+        /* transform: translateY(-300px); */
+    }
+    50%{
+        color: rgb(197, 223, 52);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: translateY(70px); */
+    }
+    100%{
+        color: rgb(223, 100, 52);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: translateY(0); */
+    }
+}
+/* E */
+@keyframes elatter{
+    0%{
+        color:rgba(0, 0, 0,0);
+        /* font-size: 50px; */
+
+        /* transform: translate(0,-300px); */
+    }
+    
+    25%{
+        color: rgb(202, 32, 69);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: translate(0px,100px); */
+    }
+    
+    
+    50%{
+        color: rgb(89, 52, 223);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: translate(100px,100px); */
+    } 
+    75%{
+        color: rgb(192, 223, 52);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: translate(100px,-100px); */
+    } 
+    80%{
+        color: rgb(236, 29, 184);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: translate(-10px,-100px); */
+    } 
+    100%{
+        color: rgb(223, 100, 52);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+        /* transform: translate(0px,0px); */
+    } 
+}
+/* ss */
+@keyframes sslatter{
+    0%{
+        color:rgba(148, 12, 12, 0.979);
+        /* font-size: 50px; */
+
+        /* transform: translate(0px,300px) rotate(360deg); */
+    }
+    
+    50%{
+        color: rgb(223, 52, 103);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+         /* transform: translate(0px,-50px);  */
+    }
+    100%{
+        color: rgb(223, 52, 103);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+         /* transform: translate(0px,-50px);  */
+    }
+}
+/* hh */
+@keyframes hhlatter{
+    0%{
+        color:rgba(148, 12, 12, 0.979);
+        /* font-size: 50px; */
+
+        /* transform: translate(300px,0px) rotate(360deg); */
+    }
+    
+    50%{
+        color: rgb(81, 223, 52);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+         /* transform: translate(0px,-50px);  */
+    }
+    100%{
+        color: rgb(15, 217, 224);
+        /* font-size: 60px; */
+        /* font-family: 'Great Vibes', cursive; */
+         /* transform: translate(0px,-50px);  */
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+  h1.text-durgama.text-center {
+    font-size: x-large;
+}
+
+.coverImg {
+  width: 90%;
+}
+
+
+
 }
