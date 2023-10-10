@@ -71,10 +71,10 @@ function App() {
         दिनांक: 24 अक्टुबर 2023, सायं 06.15 बजे से (स्थान: राजकीय सी. सै. विद्यालय का खेल मैदान)
         </p>
       </div>
-      <marquee className="imglast">
+      <marquee className="imglast" scrollamount="50">
         <div className="goooo">
         <div class=" grid">
-        <DiayaDiv/>
+            <DiayaDiv/>
             <div class="item1">H</div>
             <div class="item5">a</div>
             <div class="item3">p</div>
