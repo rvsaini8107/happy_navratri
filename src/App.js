@@ -17,7 +17,7 @@ function App() {
         <p className="text-ShriGanesh text-center">॥ श्री गणेशाय नमः ॥</p>
         <h1 className="text-durgama text-center glow">दुर्गा पूजा महोत्सव - 2023</h1>
         <Welcome />
-        <marquee>
+        <marquee >
         <div className="diyawalk">
           <DiayaDiv/>
           <DiayaDiv/>
@@ -71,7 +71,7 @@ function App() {
         दिनांक: 24 अक्टुबर 2023, सायं 06.15 बजे से (स्थान: राजकीय सी. सै. विद्यालय का खेल मैदान)
         </p>
       </div>
-      <marquee className="imglast" scrollamount="50">
+      <marquee className="imglast" >
         <div className="goooo">
         <div class=" grid">
             <DiayaDiv/>
