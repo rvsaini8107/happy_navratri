@@ -139,6 +139,7 @@ font-family: 'Great Vibes', cursive;
     font-size: 50px;
     justify-content: center;
     margin-top: 20%;
+    align-items: center;
     
   }
   .item1,.item2,.item3,.item4,
@@ -443,6 +444,12 @@ font-family: 'Great Vibes', cursive;
   width: 90%;
 }
 
+.item1,.item2,.item3,.item4,
+  .item5,.item6,.item7,.item8,.item9,.item10{
+    font-family: 'Lemonada', cursive;
+    /* font-family: 'Lobster', cursive; */
+    font-size: large;
 
+  }
 
 }
