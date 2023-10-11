@@ -90,6 +90,9 @@ function App() {
             <div class="item10">r</div>
             <div class="item7">i</div>
             <DiayaDiv/>
+            <h1 className="DeveloperName">
+              <span className="developerNameText">ShriGanesh Saini</span> 
+            </h1>
         </div>
         </div>
       </marquee>
